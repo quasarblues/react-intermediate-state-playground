@@ -1,6 +1,7 @@
 import './App.css'
 import Counter from './Counter'
 import Initializer from './Initializer'
+import ScoreKeeper from './ScoreKeeper'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <h1>Intermediate State</h1>
       <Counter />
       <Initializer />
+      <ScoreKeeper />
     </>
   )
 }
