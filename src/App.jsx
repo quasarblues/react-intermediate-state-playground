@@ -2,6 +2,7 @@ import './App.css'
 import Counter from './Counter'
 import Initializer from './Initializer'
 import ScoreKeeper from './ScoreKeeper'
+import Emoji from './Emoji'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Counter />
       <Initializer />
       <ScoreKeeper />
+      <Emoji />
     </>
   )
 }
