@@ -18,6 +18,14 @@ export default function Emoji() {
         ));
     };
 
+    const turnAlien = () => {
+        setEmojis(prevEmojis => (
+            prevEmojis.map(e => (
+                { ...e, emoji: '👽' }
+            ))
+        ));
+    };
+
     return (
         <div>
             <h2>Emoji Time</h2>
@@ -29,6 +37,7 @@ export default function Emoji() {
                     {e.emoji}</span>
             )}
             <button onClick={addEmoji} style={{ display: 'block', margin: '0 auto' }}>Add Emoji</button>
+            <button onClick={turnAlien}>Turn em 👽</button>
         </div>
     )
 }
