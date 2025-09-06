@@ -4,6 +4,7 @@ import Initializer from './Initializer'
 import ScoreKeeper from './ScoreKeeper'
 import Emoji from './Emoji'
 import Game from './Game'
+import Sales from './Sales'
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
       {/* <Counter />
       <Initializer />
       <ScoreKeeper />
-      <Emoji /> */}
-      <Game players={5} targetScore={5} />
+      <Emoji />
+      <Game players={5} targetScore={5} /> */}
+      <Sales salesPeople={5} goal={20000} />
     </>
   )
 }
